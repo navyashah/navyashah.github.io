@@ -6,11 +6,11 @@ Double major in Data Science and Economics, with a minor in Business Law
 August 2021 - May 2025
 
 ### Technical Skills
-Programming: Python, Java, SQL, XML, MongoDB.
-NoSQL Databases: DynamoDB, Apache Spark
-Data Processing: Hadoop
-Data Visualization: Tableau, UX Design in Figma
-Back-end web development for web-based apps using JavaScript
+- Programming: Python, Java, SQL, XML, MongoDB.
+- NoSQL Databases: DynamoDB, Apache Spark
+- Data Processing: Hadoop
+- Data Visualization: Tableau, UX Design in Figma
+- Back-end web development for web-based apps using JavaScript
 
 ### Work Experience
 Teaching Assistant - ITP 265: Introduction to Java Programming
