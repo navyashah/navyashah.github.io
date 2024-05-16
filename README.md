@@ -18,15 +18,13 @@ Teaching Assistant - ITP 265: Object-Oriented Programming
 - Assisted group lessons in the class and held help sections for students. Graded Java assignments and exams.
 
 ### Projects
-ZenSleep: Comprehensive Sleep Tracker/Journal App
-[Project Link](
+[ZenSleep: Comprehensive Sleep Tracker/Journal App](
 - ZenSleep is a web application designed to help users monitor and manage their sleep patterns.
 - The app uses CRUD functionality, allowing users to log, view, update, and delete entries from our NoSQL databases.
 - Overall, it allows users to interact with their sleep data through a user-friendly interface, making it easier for them to understand and improve their sleeping habits.
 - This was created as a final project for my class, Foundations of Data Management. I collaborated with two other peers on the front-end and back-end code.
 
-Evite System: Party Planning System
-[Project Link](https://github.com/navyashah/navyashah.github.io/tree/1c91d9883c1537b71d76f9a4fa48cfc06e3b77f4/FinalProject)
+[Evite System: Party Planning System](https://github.com/navyashah/navyashah.github.io/tree/1c91d9883c1537b71d76f9a4fa48cfc06e3b77f4/FinalProject)
 - Evite System is a Java program that allows users to create an event with various details and invite guests.
 - The users are separated by different subclasses of Guest and Host accounts, along with an interface of a Premium user
 - The events are also separated into different types of parties like Costume, Favor, Potluck, and Exclusive.
