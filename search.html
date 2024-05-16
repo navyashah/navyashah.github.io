@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZenSleep Search</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+       
+       .dashboard-container {
+           padding-top: 100px; 
+
+        }
+       .data-point {
+           background-color: var(--twilight-blue);
+           color: var(--moon-glow);
+           padding: 20px;
+           margin-bottom: 20px;
+           border-radius: 10px;
+        }
+       .data-title {
+           color: var(--aurora-teal);
+        }
+        .arrow {
+            display: inline-block;
+            transition: transform 1s ease-in;  
+        }
+
+        .arrow-right::before {
+            content: '\2192'; 
+        }
+        .arrow-down::before {
+            content: '\2193'; 
+        }
+
+       .search-container {
+           padding-top: 500px; 
+           width: 80%;
+           margin: auto;
+       }
+
+       
+        .collapse.show ~ .data-title .arrow {
+            transform: rotate(90deg) 1s ease-in; 
+            transition: transform 1s ease-in;
+        }
+
+        .nightSection {
+            background-color: var(--deep-sea-blue); 
+            padding: 15px;
+            border-radius: 10px; 
+            margin-bottom: 20px; 
+        }
+        .search-container {
+            padding-top: 20px;
+            width: 60%;
+            margin: auto;
+            margin-top: 150px;
+        }
+        .form-group {
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+            gap: 10px;
+        }
+
+        input[type="date"], button {
+            margin: 5px;
+            height: 38px; 
+        }
+
+        input[type="date"] {
+            flex-grow: 1; 
+        }
+
+        button {
+            white-space: nowrap; 
+        }
+    </style>
+</head>
+<body>
+    <ul id="navbar">
+        <li>
+            <div class="navbar-left">
+                <h2 id="name">ZenSleep</h2>
+            </div>
+        </li>
+        <li>
+            <div class="navbar-right">
+                <ul>
+                    <li><a href="../mainmenu.html">Main Menu</a></li>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="search.html">Search</a></li>
+                    <li><a id="active-menu" href="dashboard.html">Dashboard</a></li>
+                    <li><a href="log.html">Sleep Log</a></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+
+    <div class="search-container">
+        <h1 class="text-center">Search Sleep Data by Date</h1>
+        <div class="form-group">
+            <input type="date" id="searchDate" class="form-control">
+            <button onclick="fetchDataByDate()" class="btn btn-primary">Search</button>
+        </div>
+        <div id="resultsContainer" class="dashboard-container">
+            <!-- Results will be populated here -->
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="search.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+/* Root variables for consistent theming */
+:root {
+    --interstellar: #001555;
+    --deep-sea-blue: #122357;
+    --deep-space-blue: #0b3c5d;
+    --twilight-blue: #1c4966;
+    --shadow-gray: #4b5b6b;
+    --moon-glow: #cdd7df;
+    --aurora-teal: #3ab7a9;
+    --graphite: #30393e;
+}
+
+
+/* Global font family */
+* {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+body {
+    background-color: var(--deep-sea-blue); /* Background color */
+    color: var(--moon-glow); /* Text color */
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+/* Navbar styling */
+#navbar {
+    background-color: var(--interstellar);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between; 
+    list-style: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    opacity: 0.95;
+}
+
+.navbar-left, .navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right li {
+    display: inline-block; 
+    margin-left: 20px; 
+}
+
+#navbar a {
+    color: white;
+    padding: 0 15px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+}
+
+#navbar a:hover,
+#navbar a:focus {
+    color: var(--moon-glow);
+}
+
+/* Footer styling */
+#footer {
+    background-color: var(--deep-space-blue);
+    color: var(--moon-glow);
+    text-align: center;
+    line-height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1001;
+}
