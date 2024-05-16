@@ -26,7 +26,7 @@ ZenSleep: Comprehensive Sleep Tracker/Journal App
 - This was created as a final project for my class, Foundations of Data Management. I collaborated with two other peers on the front-end and back-end code.
 
 Evite System: Party Planning System
-[Project Link](
+[Project Link](https://github.com/navyashah/navyashah.github.io/tree/1c91d9883c1537b71d76f9a4fa48cfc06e3b77f4/FinalProject)
 - Evite System is a Java program that allows users to create an event with various details and invite guests.
 - The users are separated by different subclasses of Guest and Host accounts, along with an interface of a Premium user
 - The events are also separated into different types of parties like Costume, Favor, Potluck, and Exclusive.
