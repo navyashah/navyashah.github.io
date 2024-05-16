@@ -9,8 +9,8 @@ August 2021 - May 2025
 Programming: Python, Java, SQL, XML, MongoDB.
 NoSQL Databases: DynamoDB, Apache Spark
 Data Processing: Hadoop
-Data Visualization: Tablaeu, UX Design in Figma
-Back-end web development for web based apps using JavaScript
+Data Visualization: Tableau, UX Design in Figma
+Back-end web development for web-based apps using JavaScript
 
 ### Work Experience
 Teaching Assistant - ITP 265: Introduction to Java Programming
@@ -20,13 +20,13 @@ Teaching Assistant - ITP 265: Introduction to Java Programming
 ### Projects
 ZenSleep: Comprehensive Sleep Tracker/Journal App
 - ZenSleep is a web application designed to help users monitor and manage their sleep patterns.
-- The app uses CRUD functionality, allowing users to log, view, update, and delete entries from both of our NoSQL databases.
-- All in all, it allows users to interact with their sleep data through a user-friendly interface, making it easier to understand and improve their sleeping habits.
+- The app uses CRUD functionality, allowing users to log, view, update, and delete entries from our NoSQL databases.
+- Overall, it allows users to interact with their sleep data through a user-friendly interface, making it easier for them to understand and improve their sleeping habits.
 
 Evite System: Party Planning System
-- Evite System is a Java program which allows a user to create an event with various details and invite guests to it as well.
+- Evite System is a Java program that allows users to create an event with various details and invite guests.
 - The users are separated by different subclasses of Guest and Host accounts, along with an interface of a Premium user
 - The events are also separated into different types of parties like Costume, Favor, Potluck, and Exclusive.
-- The system allows for extensive user functionality to create accounts, login, logout, and change passwords.
+- The system allows extensive user functionality to create accounts, log in, log out, and change passwords.
   
 
