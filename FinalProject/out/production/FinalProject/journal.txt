@@ -1,0 +1,164 @@
+JOURNAL ENTRY #1
+Thursday 04/27:
+
+Overview: Reworked rough UML diagram with peer feedback.
+          Started set-up for all the packages and classes, making constructors and IVs.
+
+        (3HRS Coding SESSION)
+            added in BFF
+            set up basics of User and Party hierarchies
+                MVC packages organized
+            set up the Premium interface
+            set up enum for party types
+
+        To do next time:
+                1. Improve the functionality of interface and its implementation
+                2. Fix the plan method from abstract Party class
+                3. Begin the inviting method implementation
+                4. Design the different User subclass functionality (what does host do, what does guest do)
+
+        OH Questions:
+                1. Exclusive class' implementation of premium interface
+                2. How to differentiate the party subclasses better
+                    By different plan methods?? Using setName...etc in plan method
+
+JOURNAL ENTRY #2
+Sunday 04/30:
+
+Overview: Designed the User subclass functionality
+          Worked on making fake data
+
+          (2HR Coding SESSION)
+              create user subclasses
+              added the methods to each specific subclass
+              created user fake data
+
+          To do next time:
+                1. Work on evite system
+                2. Party fake data
+                3. Exclusive interface reworking
+
+          OH Questions:
+                1. How to create subclass specific fake data for parties
+                    I want the questions to be on the invite receiver's end rather than party creator
+                2. What should be in EviteSystem vs the subclasses (how elaborate the methods need to be)
+
+JOURNAL ENTRY #3
+Monday 05/01:
+
+Overview: Fixed problems with Party and User subclasses
+          Worked on Evite System menu and account creating, login, logout, verifying
+
+          (2+2HR Coding SESSIONS)
+                understood with help in OH that how I can make some features from the User side for parties
+                created EviteMenu enum and made the case switch with it similar to A07
+                reworked the fake data part for quite sometime, confused between file reading and making fake data method
+
+          To do next time:
+                1. Work on RSVP, sendinvite, and view invite methods
+                2. Fix the fake data problem
+
+          OH Questions:
+                1. How to parse localdate? Do it as string?
+                2. If making fake data, how to put it in Map as value
+
+JOURNAL ENTRY #4
+Tuesday 05/02:
+
+Overview: Setup reading from files to better create the objects and then put them in their respective maps
+          Created the create party method
+
+          (2HR + 3HR Coding SESSIONS)
+                successfully read and parsed data from users and parties files
+                create party method is specific for each type of party
+                created methods to upgrade current user to premium or a guest to host
+                worked on building the map of the two databases
+
+          To do next time:
+                1. View all parties invited to
+                2. Send invite, when creating party?
+                3. RSVP method
+
+          OH Questions:
+                1. How to store parties in a list
+
+JOURNAL ENTRY #5
+Wednesday 05/03:
+
+Overview: Created view parties methods based on category
+          Created two lists: parties invited to and parties hosting
+
+          (3HR Coding SESSIONS)
+                built maps of the two databases
+                worked on putting the read data into those maps
+                worked on creating the lists for parties to build rsvp and send invite methods
+                built basic design of rsvp and invite
+
+          To do next time:
+                1. Save data to files
+                2. Issue with menu?
+                3. Improve RSVP
+
+          OH Questions:
+                1. Cannot understand RSVP and invite
+
+JOURNAL ENTRY #6
+Thursday 05/04:
+
+Overview: Created the RSVP and invite method
+          Tried to build functionality such that a guest can accept or decline the RSVP
+
+          (2+2HR Coding SESSIONS)
+                built accessors for the two lists: parties invited and parties hosting
+                tried to link the data from the csv file to parties hosting
+                made another method to find the host name if it was there in the list of parties
+                not sucessful as the partydatabase map returned a collection of lists, couldnt find hostname from that
+
+
+          To do next time:
+                1. Save data to files
+                2. RSVP with options?
+
+          OH Questions:
+                1. Still struggling with RSVP and invite
+
+JOURNAL ENTRY #7
+Friday 05/05:
+
+Overview: Worked more on the guestlist and adding guests to the list if they rsvp or are invited
+          Guestlist was either not linking with the csv data or not updating with user input
+          Created updateParty() with menu options for each variable in the party to update
+
+          (4HR Coding SESSIONS)
+                built guestlist and incorporated it in the party objects
+                created fake guestlists in the csv file that then would be read in as an array
+                updateParty asks user for input to change it, it successfully updates
+                does not carry forward in sessions
+                does not read csv data for parties hosting to update them
+                (problem carried forward from last time where parties hosting is not reading in from csv data
+                due to partydatabase having collection of lists, no idea how to find hostname in a collection)
+
+          To do next time:
+                1. Fix guestlist
+                2. Comment code
+                3. updateParty fixes
+
+          OH Questions:
+                1. Guestlist doesn't update
+                2. Remove guests from list in updateParty()
+                3. More interface functionality?
+
+JOURNAL ENTRY #8
+Saturday 05/06:
+
+Overview: Fixed the guestlist issue after long discussion in OH!
+          Last minute fixes
+
+          (4HR Coding SESSIONS)
+                tried again to make parties hosting work in other ways but failed
+                guestlist issue fixed but needed to make new one for new parties
+                (because without the newGL, the guestlist only reads from files and RSVP/invite methods)
+                tried to add more functionality to RSVP
+                    like adding what costume you will wear but realised that needed an arraylist or hashmap
+                    (too complicated, not enough time)
+                worked on final report and commenting the code

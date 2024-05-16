@@ -1,0 +1,11 @@
+Type,Name,Password,Birthday,Premium
+Host,Navya,123,2002-11-06,true
+Guest,Ham,abc,2003-11-19,false
+Guest,Joey,xyz,2001-10-20,false
+Host,Emma,345,2000-11-23,true
+Host,Phoebe,qwe,2004-04-21,true
+Host,Kim,mik,2002-10-25,true
+Guest,Jan,yes,1990-03-05,false
+Guest,Priya,321,1989-04-30,true
+Host,Ben,cba,2000-06-09,false
+Guest,Steve,213,1999-08-02,false
