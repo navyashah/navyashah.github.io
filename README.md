@@ -1,4 +1,4 @@
-<img src="https://github.com/navyashah/navyashah.github.io/blob/4136238487b3c410cf90a9c8743eb3d0b586dacf/headshot.jpeg" alt="Headshot" style="width:150px;height:150px;border-radius:50%;object-fit:cover;">
+<img src="https://github.com/navyashah/navyashah.github.io/blob/08ad53f19fabe1c89624d9958a940a0add361f09/headshot%20ROUND.png" alt="Headshot" style="width:150px;height:150px;border-radius:50%;object-fit:cover;">
 
 # Data Science and Economics student 
 
