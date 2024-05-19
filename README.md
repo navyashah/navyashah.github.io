@@ -1,3 +1,5 @@
+![headshot](https://github.com/navyashah/navyashah.github.io/blob/4136238487b3c410cf90a9c8743eb3d0b586dacf/headshot.jpeg)
+
 # Data Science and Economics student 
 
 ### Education
