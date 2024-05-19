@@ -18,7 +18,7 @@ Teaching Assistant - ITP 265: Object-Oriented Programming
 - Assisted group lessons in the class and held help sections for students. Graded Java assignments and exams.
 
 ### Projects
-[ZenSleep: Comprehensive Sleep Tracker/Journal App](
+[ZenSleep: Comprehensive Sleep Tracker/Journal App](https://drive.google.com/drive/folders/1HqiFHsk1WLnUCDW87PG5cCr8dnveG52d?usp=share_link)
 - ZenSleep is a web application designed to help users monitor and manage their sleep patterns.
 - The app uses CRUD functionality, allowing users to log, view, update, and delete entries from our NoSQL databases.
 - Overall, it allows users to interact with their sleep data through a user-friendly interface, making it easier for them to understand and improve their sleeping habits.
