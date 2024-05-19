@@ -29,6 +29,8 @@ Teaching Assistant - ITP 265: Object-Oriented Programming
 - The users are separated by different subclasses of Guest and Host accounts, along with an interface of a Premium user
 - The events are also separated into different types of parties like Costume, Favor, Potluck, and Exclusive.
 - The system allows extensive user functionality to create accounts, log in, log out, and change passwords.
-- This was created as a final project for my class, Object-Oriented Programming. 
+- This was created as a final project for my class, Object-Oriented Programming.
+
+### [View entire Resume here](https://docs.google.com/document/d/136OSUqnBsCmpenbYwpDIgeCnTvATZ_Ofn9ZYt_Qhcy8/edit?usp=sharing)
   
 
