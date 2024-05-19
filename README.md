@@ -1,5 +1,3 @@
-<img src="https://github.com/navyashah/navyashah.github.io/blob/08ad53f19fabe1c89624d9958a940a0add361f09/headshot%20ROUND.png" alt="Headshot" style="width:150px;height:150px;border-radius:50%;object-fit:cover;">
-
 # Data Science and Economics student 
 
 ### Education
