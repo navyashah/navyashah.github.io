@@ -1,5 +1,13 @@
-![headshot](https://github.com/navyashah/navyashah.github.io/blob/4136238487b3c410cf90a9c8743eb3d0b586dacf/headshot.jpeg)
-<a href="url"><img src="https://github.com/navyashah/navyashah.github.io/blob/4136238487b3c410cf90a9c8743eb3d0b586dacf/headshot.jpeg" height="auto" width="200" style="border-radius:50%"></a>
+![Headshot]([images/headshot.jpg](https://github.com/navyashah/navyashah.github.io/blob/4136238487b3c410cf90a9c8743eb3d0b586dacf/headshot.jpeg)){: .round-headshot }
+<style>
+.round-headshot {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+</style>
+
 
 # Data Science and Economics student 
 
